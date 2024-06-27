@@ -6,25 +6,25 @@
 //
 
 import SwiftUI
-struct ContentView: View {
+struct FifthView: View {
     var body: some View {
         NavigationStack {
-            
+
             VStack {
                 
-                Text("What’s your favorite type of music?")
+                Text("Which type of movie do you enjoy the most?")
                     .font(.title)
                     .fontWeight(.bold)
                     .multilineTextAlignment(.center)
                     .padding(.top, 200)
                     .padding(.horizontal, 45)
                 
-
-                    NavigationLink(destination: SecondView()) {
-                            Text("Pop")
+                    
+                    NavigationLink(destination: SixthView()) {
+                            Text("Romance")
                                 .font(.title2)
                                 .fontWeight(.bold)
-                                .padding(.horizontal, 95)
+                                .padding(.horizontal, 70)
                                 .frame(height: 45)
                                 .foregroundColor(Color.black)
                                 .background(Color("#FED7FF"))
@@ -33,11 +33,11 @@ struct ContentView: View {
                     .buttonStyle(.borderedProminent)
                     .tint(Color("#FED7FF"))
                         
-                    NavigationLink(destination: SecondView()) {
-                            Text("Rock")
+                    NavigationLink(destination: SixthView()) {
+                            Text("Comedy")
                                 .font(.title2)
                                 .fontWeight(.bold)
-                                .padding(.horizontal, 90)
+                                .padding(.horizontal, 75)
                                 .frame(height: 45)
                                 .foregroundColor(Color.black)
                                 .background(Color("#E7C6FF"))
@@ -46,11 +46,11 @@ struct ContentView: View {
                     .buttonStyle(.borderedProminent)
                     .tint(Color("#E7C6FF"))
                     
-                    NavigationLink(destination: SecondView()) {
-                            Text("Classical")
+                    NavigationLink(destination: SixthView()) {
+                            Text("Action")
                                 .font(.title2)
                                 .fontWeight(.bold)
-                                .padding(.horizontal, 70)
+                                .padding(.horizontal, 82.5)
                                 .frame(height: 45)
                                 .foregroundColor(Color.black)
                                 .background(Color("#C8B6FF"))
@@ -59,11 +59,11 @@ struct ContentView: View {
                     .buttonStyle(.borderedProminent)
                     .tint(Color("#C8B6FF"))
                         
-                    NavigationLink(destination: SecondView()) {
-                            Text("Jazz")
+                    NavigationLink(destination: SixthView()) {
+                            Text("Thriller")
                                 .font(.title2)
                                 .fontWeight(.bold)
-                                .padding(.horizontal, 90)
+                                .padding(.horizontal, 80)
                                 .frame(height: 45)
                                 .foregroundColor(Color.black)
                                 .background(Color("#BBD0FF"))
@@ -79,5 +79,5 @@ struct ContentView: View {
         }
     }
 #Preview {
-    ContentView()
+    FifthView()
 }

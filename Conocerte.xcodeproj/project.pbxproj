@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E379FFCC2C2D9B55007C265B /* SixthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E379FFCB2C2D9B55007C265B /* SixthView.swift */; };
 		E384B2212C2A5885009C1F4F /* ConocerteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E384B2202C2A5885009C1F4F /* ConocerteApp.swift */; };
 		E384B2232C2A5885009C1F4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E384B2222C2A5885009C1F4F /* ContentView.swift */; };
 		E384B2252C2A5887009C1F4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E384B2242C2A5887009C1F4F /* Assets.xcassets */; };
@@ -14,6 +15,10 @@
 		E384B2322C2A5887009C1F4F /* ConocerteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E384B2312C2A5887009C1F4F /* ConocerteTests.swift */; };
 		E384B23C2C2A5887009C1F4F /* ConocerteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E384B23B2C2A5887009C1F4F /* ConocerteUITests.swift */; };
 		E384B23E2C2A5887009C1F4F /* ConocerteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E384B23D2C2A5887009C1F4F /* ConocerteUITestsLaunchTests.swift */; };
+		E3AE81042C2C5A2D00FBEF3E /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AE81032C2C5A2D00FBEF3E /* SecondView.swift */; };
+		E3AE81062C2C5A3600FBEF3E /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AE81052C2C5A3600FBEF3E /* ThirdView.swift */; };
+		E3AE81082C2C5A4500FBEF3E /* FourthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AE81072C2C5A4500FBEF3E /* FourthView.swift */; };
+		E3AE810A2C2C5A5700FBEF3E /* FifthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AE81092C2C5A5700FBEF3E /* FifthView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E379FFCB2C2D9B55007C265B /* SixthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthView.swift; sourceTree = "<group>"; };
 		E384B21D2C2A5885009C1F4F /* Conocerte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Conocerte.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E384B2202C2A5885009C1F4F /* ConocerteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConocerteApp.swift; sourceTree = "<group>"; };
 		E384B2222C2A5885009C1F4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +50,10 @@
 		E384B2372C2A5887009C1F4F /* ConocerteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConocerteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E384B23B2C2A5887009C1F4F /* ConocerteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConocerteUITests.swift; sourceTree = "<group>"; };
 		E384B23D2C2A5887009C1F4F /* ConocerteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConocerteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E3AE81032C2C5A2D00FBEF3E /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		E3AE81052C2C5A3600FBEF3E /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
+		E3AE81072C2C5A4500FBEF3E /* FourthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthView.swift; sourceTree = "<group>"; };
+		E3AE81092C2C5A5700FBEF3E /* FifthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +106,11 @@
 			children = (
 				E384B2202C2A5885009C1F4F /* ConocerteApp.swift */,
 				E384B2222C2A5885009C1F4F /* ContentView.swift */,
+				E3AE81032C2C5A2D00FBEF3E /* SecondView.swift */,
+				E3AE81052C2C5A3600FBEF3E /* ThirdView.swift */,
+				E3AE81072C2C5A4500FBEF3E /* FourthView.swift */,
+				E3AE81092C2C5A5700FBEF3E /* FifthView.swift */,
+				E379FFCB2C2D9B55007C265B /* SixthView.swift */,
 				E384B2242C2A5887009C1F4F /* Assets.xcassets */,
 				E384B2262C2A5887009C1F4F /* Preview Content */,
 			);
@@ -257,8 +272,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3AE81062C2C5A3600FBEF3E /* ThirdView.swift in Sources */,
+				E3AE81042C2C5A2D00FBEF3E /* SecondView.swift in Sources */,
 				E384B2232C2A5885009C1F4F /* ContentView.swift in Sources */,
 				E384B2212C2A5885009C1F4F /* ConocerteApp.swift in Sources */,
+				E379FFCC2C2D9B55007C265B /* SixthView.swift in Sources */,
+				E3AE810A2C2C5A5700FBEF3E /* FifthView.swift in Sources */,
+				E3AE81082C2C5A4500FBEF3E /* FourthView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,25 +6,26 @@
 //
 
 import SwiftUI
-struct ContentView: View {
+struct ThirdView: View {
     var body: some View {
-        NavigationStack {
             
+        NavigationStack {
+
             VStack {
                 
-                Text("What’s your favorite type of music?")
+                Text("What's your favorite season?")
                     .font(.title)
                     .fontWeight(.bold)
                     .multilineTextAlignment(.center)
                     .padding(.top, 200)
                     .padding(.horizontal, 45)
                 
-
-                    NavigationLink(destination: SecondView()) {
-                            Text("Pop")
+                    
+                    NavigationLink(destination: FourthView()) {
+                            Text("Winter")
                                 .font(.title2)
                                 .fontWeight(.bold)
-                                .padding(.horizontal, 95)
+                                .padding(.horizontal, 82.5)
                                 .frame(height: 45)
                                 .foregroundColor(Color.black)
                                 .background(Color("#FED7FF"))
@@ -33,11 +34,11 @@ struct ContentView: View {
                     .buttonStyle(.borderedProminent)
                     .tint(Color("#FED7FF"))
                         
-                    NavigationLink(destination: SecondView()) {
-                            Text("Rock")
+                    NavigationLink(destination: FourthView()) {
+                            Text("Spring")
                                 .font(.title2)
                                 .fontWeight(.bold)
-                                .padding(.horizontal, 90)
+                                .padding(.horizontal, 82.5)
                                 .frame(height: 45)
                                 .foregroundColor(Color.black)
                                 .background(Color("#E7C6FF"))
@@ -46,11 +47,11 @@ struct ContentView: View {
                     .buttonStyle(.borderedProminent)
                     .tint(Color("#E7C6FF"))
                     
-                    NavigationLink(destination: SecondView()) {
-                            Text("Classical")
+                    NavigationLink(destination: FourthView()) {
+                            Text("Summer")
                                 .font(.title2)
                                 .fontWeight(.bold)
-                                .padding(.horizontal, 70)
+                                .padding(.horizontal, 72.5)
                                 .frame(height: 45)
                                 .foregroundColor(Color.black)
                                 .background(Color("#C8B6FF"))
@@ -59,11 +60,11 @@ struct ContentView: View {
                     .buttonStyle(.borderedProminent)
                     .tint(Color("#C8B6FF"))
                         
-                    NavigationLink(destination: SecondView()) {
-                            Text("Jazz")
+                    NavigationLink(destination: FourthView()) {
+                            Text("Fall")
                                 .font(.title2)
                                 .fontWeight(.bold)
-                                .padding(.horizontal, 90)
+                                .padding(.horizontal, 97.5)
                                 .frame(height: 45)
                                 .foregroundColor(Color.black)
                                 .background(Color("#BBD0FF"))
@@ -79,5 +80,5 @@ struct ContentView: View {
         }
     }
 #Preview {
-    ContentView()
+    ThirdView()
 }
